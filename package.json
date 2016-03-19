@@ -18,10 +18,11 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --inline --colors --progress"
+    "dev": "webpack-dev-server --port 9090 --inline --colors --progress"
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
+    "bootswatch": "^3.3.6",
     "fixed-data-table": "^0.6.0",
     "lodash": "^4.6.1",
     "react": "^0.14.7",
